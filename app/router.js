@@ -18,7 +18,7 @@ router.get('/city/style.css', (req, res) => {
     res.sendFile(__dirname + '/css/style.css');
 });
 
-// TODO other pages
+// other pages
 router.get('/city/:capital', (req, res) => {
     const capital = req.params.capital;
     console.log(capital);

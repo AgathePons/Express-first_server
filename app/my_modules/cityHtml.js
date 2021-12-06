@@ -1,3 +1,5 @@
+const timeZoneMessage = require('./timeZone');
+
 const htmlServices = {
 
   buildHtmlHead: (capital) => {
@@ -17,7 +19,9 @@ const htmlServices = {
     htmlBody += '<body>';
 
     htmlBody += `<h1>${capital}</h1>`;
-
+    htmlBody += '<p>';
+    htmlBody += timeZoneMessage(capital);
+    htmlBody += '</p>'
     htmlBody += '</body>';
 
     return htmlBody;
