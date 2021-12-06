@@ -1,0 +1,29 @@
+{
+  "name": "s03e04-worldtime-agathepons",
+  "version": "1.0.0",
+  "description": "test express and router",
+  "main": "app.js",
+  "scripts": {
+    "start": "node-dev app.js --no-notify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/O-clock-Zagreus/S03E04-worldtime-AgathePons.git"
+  },
+  "keywords": [
+    "express",
+    "nodejs",
+    "js"
+  ],
+  "author": "AgathePons",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/O-clock-Zagreus/S03E04-worldtime-AgathePons/issues"
+  },
+  "homepage": "https://github.com/O-clock-Zagreus/S03E04-worldtime-AgathePons#readme",
+  "dependencies": {
+    "dayjs": "^1.10.7",
+    "express": "^4.17.1"
+  }
+}
