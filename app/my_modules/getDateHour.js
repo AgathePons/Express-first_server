@@ -27,7 +27,6 @@ const dayInfos = {
     for (i = 0; i < capitalCities.length; i++) {
       if (capital === capitalCities[i].name.toLocaleLowerCase()) {
         timeCapital = dayjs().tz(capitalCities[i].tz).format('HH:mm');
-        console.log('tz:', capitalCities[i].tz);
       }
     }
     return timeCapital;
